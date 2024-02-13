@@ -17,7 +17,7 @@ main {
     position: relative;
 }
 .container {
-    background-image: url("/resource/bg.png");
+    background-image: url("resource/bg.png");
     background-size: cover;
     width: 1115px;
     height: 754px;
