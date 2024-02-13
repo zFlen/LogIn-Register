@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background: #222430;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+}
+
+main {
+    padding: 75px;
+    margin: 10px 300px;
+}
+
+.container-all{
+    width: 100px;
+    max-width: 800px;
+    position: relative;
+}
+.container {
+    background-image: url("/resource/bg.png");
+    background-size: cover;
+    width: 1115px;
+    height: 754px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+.fondo-iniciar h2 {
+    color: #F3F8F2;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 270px;
+    font-size: 32px;
+}
+
+.fondo-iniciar .btn-inicio {
+    cursor: pointer;
+    width: 280px;
+    background: transparent;
+    padding: 15px;
+    margin: 10px 120px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #F3F8F2;
+    border-radius: 30px;
+    border-color: #F3F8F2;
+}
+
+.fondo-registro h2 {
+    color: #F3F8F2;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 240px;
+    font-size: 32px;
+}
+
+.fondo-registro .btn-registro {
+    cursor: pointer;
+    width: 280px;
+    background: transparent;
+    padding: 15px;
+    margin: 10px 120px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #F3F8F2;
+    border-radius: 30px;
+    border-color: #F3F8F2;  
+}
+
+/* Formularios */
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -377px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.container-2 .iniciaSesion {
+    width: 558px;
+    height: 754px; 
+    border-radius: 15px 0 0 15px;
+    position: absolute;
+    background-color: #C8C8C8;
+    opacity: 1;
+    display: block;
+}
+
+.container-2 .registro {
+    width: 558px;
+    height: 754px; 
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    background-color: #C8C8C8;
+    display: none;
+}
+
+.iniciaSesion h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 51px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.registro h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 51px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.form-input {
+    position: relative;
+    margin: 27px 87px;
+} 
+
+.form-input input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px #000 solid;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 200;
+    font-family: "Inter", sans-serif;
+    color: #000;
+}
+
+.form-input input:focus, .form-input input:valid {
+    outline: 0;
+    font-weight: 500;
+}
+
+.tools-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 87px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.tools-container a {
+    text-decoration: none;
+    color: #000;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 204px;
+    background: #3581B8;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #F3F8F2;
+    border: 0;
+    border-radius: 30px;
+    margin: 43px 190px;
+}
+
+.text {
+    border-bottom: 1px #000 solid;
+    margin: 36px 110px;
+}
+
+.text h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.btn-register {
+    cursor: pointer;
+    display: inline-block;
+    width: 204px;
+    background: #3581B8;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #F3F8F2;
+    border: 0;
+    border-radius: 30px;
+    margin: 23px 190px;
+}
+.social-media ul {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    gap: 15px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+
+.social-media-registro ul{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    gap: 15px;
+    margin-right: 110px;
+    margin-left: 110px;
+    
+}
+
+
